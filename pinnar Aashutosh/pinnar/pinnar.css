@@ -1,0 +1,466 @@
+*{
+    font-family: 'Libre Baskerville', serif;
+    
+}
+@font-face{
+    font-family: Nationale;
+    src:url(Nationale-Medium.otf);
+    font-weight: 500;
+}
+@font-face{
+    font-family: Nationale;
+    src:url(Nationale-Regular.otf);
+    font-weight: 400;
+}
+.nav-bar{
+    
+    background-color: #e7e7e7;
+    height: 110px;
+    border-bottom: 1px solid grey;
+    
+}
+.flex-container{
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+  
+}
+
+.logo-img img{
+      margin-right: 350px;
+      padding: 0px 0px;
+}
+.flex-container .nav ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    margin-top: 47px;
+    text-align: right;
+}
+.flex-container .nav li{
+    display:inline;  
+}
+.flex-container .nav li a{
+    color:#3e4e56;
+    text-decoration: none;
+    padding:14px 16px;    
+}
+.container2{
+    background-color: #e7e7e7;
+    height: 550px;
+}
+.flex-container2{
+    display: flex;
+    justify-content: center;    
+}
+.section1{
+   margin-top: 150px;
+}
+.section1 h3{
+    font-size: 35px;
+    font-weight: 200;
+    line-height: 55px;
+}
+.section1 h5{    
+    font-size: 20px;
+    margin-top: 30px;
+}
+.section1 button{
+    font-family:Nationale ;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 9px 15px;
+    color: #000000;
+    background-color: #A1C7CC;
+    text-align: center;
+    text-decoration: none;
+    border: none;   
+}
+.hero-image img{
+    height: 85%;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+.content2{
+    background-color: #A1C7CC;
+    padding: 75px 75px;
+    text-align: center;
+    height: 270px;
+}
+.content2 h2{  
+       font-weight: 500;
+       font-size: 32px;
+}
+.content2 p{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 30px;
+        font-size: 14px;
+        line-height: 29px;
+}
+.container4{
+    background-color: #e7e7e7;  
+}
+.content3 h3{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 60px;  
+    padding-bottom: 15px; 
+    
+}
+.flex-container3{
+    display:flex;
+    padding-top: 30px;
+}
+.flex-container4{
+    display: flex;
+    padding-top: 30px;
+}
+.header1 h3{
+    font-family: Nationale;
+     font-size :18px ;
+     font-weight: 600;
+}
+.header2 h3{
+    font-family: Nationale;
+     font-size :18px ;
+     font-weight: 600;
+}
+.header1 {
+   width: 50%;
+   padding: 0px 100px;
+}
+.header1 h3{
+    text-align: center;
+}
+.header2{
+    width: 50%;
+    padding: 0px 90px;
+}
+.paragraph{
+    font-size: 14px;
+    line-height: 29px;
+}
+.container5{
+    background-color: #e7e7e7;
+    padding-bottom: 70px;    
+}
+.flex-container5{
+       display: flex;
+       padding-top: 80px;
+}
+.flex-container6{
+    display: flex;
+    padding-top: 40px;
+}
+.paragraph1{
+    padding-left: 30px;
+    font-size: 14px;
+    line-height: 29px;
+}
+.header3{
+    width: 50%;
+    padding: 0px 100px;
+}
+.header4{
+    width: 50%;
+    padding: 0px 90px;
+}
+.header3 h3{
+    text-align: center;
+    font-family: Nationale;
+     font-size :18px ;
+     font-weight: 600;
+}
+.header4 h3{
+    text-align: center;
+    font-family: Nationale;
+     font-size :18px ;
+     font-weight: 600;
+}
+.container6{    
+    width: 100%;  
+}
+.flex-container7{
+    display: flex;
+    padding-top: 0px;
+    height: 310px;   
+}
+.flex-image{
+    width:730px;
+}
+.flex-content{
+    background-color: #214a61;
+    color: #ffffff;
+}
+.flex-content h2{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 10px;
+}
+.flex-content p{
+    font-size: 14px;
+    margin-top: 50px;
+    padding-left: 100px ; 
+    padding-right: 100px;
+}
+.flex-content button{
+    font-family:Nationale ;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 9px 15px;
+    color: #000000;
+    background-color: #A1C7CC;
+    text-align: center;
+    text-decoration: none;
+    border: none;    
+}
+.button{
+    margin-left: 100px;
+}
+.container7{
+    background-color: #e7e7e7;
+}
+.flex-container8{
+    display: flex;
+    padding-bottom: 120px;
+}
+.name1{
+    background-image : url(pics/white-circle.png) ;
+    background-repeat: no-repeat;
+    background-size: 250px 250px ;
+    background-position: 320px 70px;
+    padding-top: 30px;
+    width: 50%;
+}
+.name2{
+    background-image:  url(pics/white-circle.png);
+    background-repeat: no-repeat;
+    background-size: 250px 250px ;
+    background-position: 210px 70px;
+    padding-top: 30px;
+    width:50%;
+}
+.name1 h4{
+    padding-top: 120px;
+    padding-left: 220px ;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-family: Nationale;
+    font-weight: 600;
+}
+.name2 h4{
+    padding-top: 120px;
+    padding-left: 210px ;
+    font-size: 18px;
+    font-family: Nationale;
+    font-weight: 600;
+}
+.name1 p{
+    font-size: 14px;
+    padding-right: 135px;
+    padding-left: 110px;
+    line-height: 28px;
+    text-align: center;    
+}
+.name2 p{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-right: 250px;
+    line-height: 28px;
+    text-align: center;
+}
+.flex-container9{
+    display: flex;
+    background-color: #214a61;
+    padding: 60px;
+}
+.picture1{
+   width:33.33%;
+   padding-left: 160px; 
+   padding-top: 85px;  
+}  
+.picture2{
+   width:31.33%;
+   padding-left: 20px;
+}
+.picture3{
+   width: 35.33%;
+   padding-top: 85px;
+}
+.picture2 h2{
+    color: #ffffff;
+    text-align: center;
+     font-size: 32px;    
+}
+.picture2 img{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.picture1 p{
+    font-family: Nationale;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 30px;   
+}
+.picture2 p{
+    font-family: Nationale;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    padding-left: 70px;
+    margin-top: 10px;
+}
+.picture3 p{
+    font-family: Nationale;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 10px;   
+    padding-right: 60px;
+}
+.container9{
+    background-color: #e7e7e7;
+}
+.flex-container10{
+    display: flex;
+    padding: 60px 0px;   
+}
+.pic1{
+    width: 50%;
+    padding-left: 290px;
+    padding-top:40px ;
+}
+.cont{
+    width: 50%;
+    padding:32.85px 96px 32.85px 48px;
+}
+.cont h1{
+   font-size: 32px;
+   font-weight: 500;
+   padding-top: 40px;  
+   padding-right: 50px;
+}
+.cont p{
+    font-size: 14px;
+    margin-top: 30px;
+    padding-right: 50px;
+    line-height: 28px;
+}
+.cont button{
+    font-family:Nationale ;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 9px 15px;
+    color: #000000;
+    background-color: #A1C7CC;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}    
+.butnew{
+    padding-right: 40px;
+}
+.last{
+    padding: 30px 0px;
+}
+.last h1{
+    text-align: center;
+    font-size: 24px;
+}
+.container10{
+    background-color: #214a61;
+    padding: 60px 55.3906px 30px;
+}
+.flex-container11{
+    display: flex;    
+}
+.icons{
+   width:33.33%;
+   padding: 0px 10px 0px 100px;
+}
+.navigation-bar{
+    width:33.33%;
+    padding: 0px 50px;
+}
+.contact-form{
+     width:33.33%;
+     padding: 0px 100px 0px 10px;
+}
+.icons img{
+    margin-bottom: 30px;
+}
+.icons i{
+    color: white;
+    font-size: 20px;
+    padding-right:20px ;    
+}
+.icons p{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.navigation-bar ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+.navigation-bar a li{
+    color: white;
+    margin-bottom: 10px;
+}
+.contact-form h3{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+}
+.contact-form .form-control{
+    width:300px;
+    margin-bottom: 35px;
+}
+.contact-form button{
+    font-family:Nationale ;
+    font-weight: normal;
+    font-size: 14px;   
+    padding: 9px 15px;
+    color: #000000;
+    background-color: #A1C7CC;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+.finall{
+    padding-top: 30px;
+}
+.copy-right{
+    display: flex;
+}
+.two h6{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 30px 0px;
+}
+.one p{
+    color: white;
+    font-family: Nationale;
+    font-weight: 500;
+    font-size:14px;
+    width: 1fr;
+    padding-left: 270px;
+}
+.three p{
+    color: white;
+    font-family: Nationale;
+    font-weight: 500;
+    font-size: 14px;
+    width: 1fr;
+    padding-left: 420px;    
+}   
